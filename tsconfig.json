@@ -5,7 +5,12 @@
     "target": "ES2016",
     "module": "commonJS",
     "lib": ["ES2016"],
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "removeComments": true, //清注释
+    "strictNullChecks": true,
+    "noImplicitUseStrict": true,
+    "esModuleInterop": true, // 启用es模块化交互非es模块导出
+    "moduleResolution": "node"
   },
   "include": ["./src"],
   /*

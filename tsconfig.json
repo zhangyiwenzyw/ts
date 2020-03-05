@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    // "incremental": true,                   /* Enable incremental compilation */
+    "target": "ES2016",
+    "module": "commonJS",
+    "lib": ["ES2016"],
+    "outDir": "./dist"
+  },
+  "include": ["./src"],
+  /*
+    "files": ["./src/index.ts "]
+  */
+}

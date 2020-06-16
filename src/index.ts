@@ -1,7 +1,22 @@
-import  { createDeck, printDeck }  from "./funcs"
+ import  { sum }  from "./interface"
+import { Deck } from "./deck"
 
-const deck = createDeck()
-printDeck(deck)
+const deck = new Deck
+deck.shuffle()
+
+const result = deck.publish();
+
+console.log("------player1------")
+result.player1.print()
+console.log("------player2------")
+result.player2.print()
+console.log("------player3------")
+result.player3.print()
+console.log("------地主牌------")
+result.left.print()
+
+const num = sum([3,5,6,7,9], (n) => n % 2 !== 0)
+console.log(num)
 // let name:string;
 
 // function sum(a: number, b: number) {

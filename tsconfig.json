@@ -10,7 +10,8 @@
     "strictNullChecks": true,
     "noImplicitUseStrict": true,
     "esModuleInterop": true, // 启用es模块化交互非es模块导出
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "strictPropertyInitialization": true
   },
   "include": ["./src"],
   /*
